@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces da Becca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagens/becca-removebg-preview.png" type="image/png">
+</head>
+<body>
+<header>
+    <div class="logo">
+            <img src="imagens/becca-removebg-preview.png" alt="Logo Doces da Becca">
+            <h1>Doces da Becca</h1>
+        </div>
+    <div class="container">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#" id="ver-carrinho">Carrinho</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        <div class="container">
+            <section id="produtos">
+                <h2>Nossos Produtos</h2>
+                <div class="produtos-grid" id="produtos-grid">
+                    </div>
+            </section>
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Seja bem-vindo ao universo dos sabores! Aqui na Doces da Becca confeitaria, cada doce é feito com carinho, qualidade e aquele toque especial que conquista corações. 💕
+
+Oferecemos uma variedade deliciosa de doces artesanais, bolos personalizados, sobremesas incríveis e muito mais! Nossos produtos são preparados com ingredientes selecionados para garantir o melhor sabor e a satisfação dos nossos clientes.
+
+Seja para uma festa, um presente especial ou simplesmente para adoçar o seu dia, temos a opção perfeita para você!</p>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Telefone: <a href="tel:+554398403039">+55 43 9840-3039</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/doces__da_becca_/" target="_blank">@doces_da_becca</a></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Doces da Becca. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="carrinho">
+        <button id="fechar-carrinho">X</button>
+        <h2>Seu Carrinho</h2>
+        <ul id="carrinho-lista">
+            <li class="carrinho-vazio">Carrinho Vazio</li>
+        </ul>
+        <div id="form-entrega" >
+            <h2>Informações de Entrega</h2>
+            <form id="form-dados-entrega">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+        <p id="carrinho-total">Total: R$ 0,00</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

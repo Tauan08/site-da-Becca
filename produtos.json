@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Brigadeiro Gourmet",
+    "imagem": "imagens/Bandeja-gourmet.jpg",
+    "descricao": "Bandeja gourmet 4 doces sabores, paçoca, chocobol, nesquik, ninho com Nutella.",
+    "preco": 14.00
+  }
+  ,{
+    "nome": "beijinho tradicional",
+    "imagem": "imagens/beijinho-tradicional.jpg",
+    "descricao": "Bandeja 4 doces tradicionais beijinho",
+    "preco": 10.00
+  }
+  ,{
+    "nome": "beijinho",
+    "imagem": "imagens/beijinho.jpg",
+    "descricao": "",
+    "preco": 2.50
+  }
+  ,{
+    "nome": "beijinho e brigadeiro",
+    "imagem": "imagens/beijinho-brigadeiro.jpg",
+    "descricao": "Bandeja 4 doces tradicionais beijinho e brigadeiro",
+    "preco": 10.00
+  }
+  ,{
+    "nome": "Bolo de pote de chocolate",
+    "imagem": "imagens/Bolo-pote-chocolate.jpg",
+    "descricao": "",
+    "preco": 13.00
+  }
+  ,{
+    "nome": "Bolo de pote de beijinho  com coco", 
+    "imagem": "imagens/Bolo-pote-beijinho.jpg",
+    "descricao": "",
+    "preco": 13.00
+  }
+]
