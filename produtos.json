@@ -35,10 +35,4 @@
     "descricao": "",
     "preco": 13.00
   }
-  ,{
-    "nome": "Bolo de pote de Morango", 
-    "imagem": "imagens/Bolo-pote-morango.jpg",
-    "descricao": "",
-    "preco": 13.00
-  }
 ]
