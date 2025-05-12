@@ -35,4 +35,10 @@
     "descricao": "",
     "preco": 13.00
   }
+  ,{
+    "nome": "Ferreiro", 
+    "imagem": "imagens/Ferreiro.jpg",
+    "descricao": "Ferreiro, bandeja gourmet com 4 unidades",
+    "preco": 14.00
+  }
 ]
